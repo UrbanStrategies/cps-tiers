@@ -32,7 +32,7 @@ var MapsLib = {
 
   map_centroid:       new google.maps.LatLng(37.8044, -122.2697), //center that your map defaults to
   locationScope:      "oakland",      //geographical area appended to all address searches
-  recordName:         "zon",       //for showing number of results
+  recordName:         "zone",       //for showing number of results
   recordNamePlural:   "zones",
 
   searchRadius:       0.0001,            //in meters ~ 1/2 mile
@@ -236,7 +236,7 @@ var MapsLib = {
       tier = json["rows"][0];
 
     $( "#tierNumber" ).fadeOut(function() {
-        $( "#tierNumber" ).html("You are in Tier " + tier);
+        $( "#tierNumber" ).html("You are in Zone " + tier);
       });
     $( "#tierNumber" ).fadeIn();
   },
