@@ -18,22 +18,22 @@ var MapsLib = {
 
   //the encrypted Table ID of your Fusion Table (found under File => About)
   //NOTE: numeric IDs will be depricated soon
-  fusionTableId:      "1suTSp6yMr_ZlKVw_fayo5ovcj960Ysm12wHSmnA",
+  fusionTableId:      "1zzlVg7P8-vT0TAqJHquuKmjrj_Znwr0eNFDT0XY",
   tierDiffTableId:    "1c8_4xQV7Vw21m5kDZqnD7Kz_QCOdrlXyF_RU4gc",
 
   //*New Fusion Tables Requirement* API key. found at https://code.google.com/apis/console/
   //*Important* this key is for demonstration purposes. please register your own.
-  googleApiKey:       "AIzaSyAcsnDc7_YZskPj4ep3jT_fkpB3HI_1a98",
+  googleApiKey:       "AIzaSyBiSQxYlSAn8B4fBNANuiOUDmf0Mv72MAY",
 
   //name of the location column in your Fusion Table.
   //NOTE: if your location column name has spaces in it, surround it with single quotes
   //example: locationColumn:     "'my location'",
   locationColumn:     "geometry",
 
-  map_centroid:       new google.maps.LatLng(41.8781136, -87.66677856445312), //center that your map defaults to
-  locationScope:      "chicago",      //geographical area appended to all address searches
-  recordName:         "tier",       //for showing number of results
-  recordNamePlural:   "tiers",
+  map_centroid:       new google.maps.LatLng(37.8044, -122.2697), //center that your map defaults to
+  locationScope:      "oakland",      //geographical area appended to all address searches
+  recordName:         "zon",       //for showing number of results
+  recordNamePlural:   "zones",
 
   searchRadius:       0.0001,            //in meters ~ 1/2 mile
   defaultZoom:        11,             //zoom level when map is loaded (bigger is more zoomed in)
