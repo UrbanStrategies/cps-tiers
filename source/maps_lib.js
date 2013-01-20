@@ -197,7 +197,7 @@ var MapsLib = {
 
   enableMapTips: function () {
     MapsLib.searchrecords.enableMapTips({
-      select: "'Tier 2012'",
+      select: "zone",
       from: MapsLib.fusionTableId,
       geometryColumn: MapsLib.locationColumn,
       googleApiKey: MapsLib.googleApiKey,
