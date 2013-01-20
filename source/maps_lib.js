@@ -226,7 +226,7 @@ var MapsLib = {
   },
 
   getTierNumber: function(whereClause) {
-    MapsLib.query("'Tier 2012'", whereClause,"MapsLib.displayTierNumber");
+    MapsLib.query("zone", whereClause,"MapsLib.displayTierNumber");
   },
 
   displayTierNumber: function(json) {
