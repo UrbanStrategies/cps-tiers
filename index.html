@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Chicago Public School Tiers</title>
+<title>Oakland Elementary School Zones</title>
 <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
@@ -37,26 +37,19 @@
 		  <ul id='header-nav'>
 				<li>Home</li>
 				<li><a href='about.html'>About</a></li>
-				<li><a href='tier-calculation.html'>Tier calculation</a></li>
-				<li><a href="tier-differences.html">Tier differences</a></li>
 			</ul>
-			<h1>Chicago Public School Tiers <span>an <a href='http://opencityapps.org'>Open City</a> app</span></h1>
+			<h1>Oakland Elementary School Zones <span>an <a href='http://openoakland.org'>OpenOakland</a> app</span></h1>
 			<hr />
 			<div class="content-secondary">
 
 				<div id='search'>
-					<p>In Chicago, a student's chance of getting into the city's top, <a href='about.html#four-types'>selective schools</a> depends on where he or she lives.</p>
-					<p>Chicago Public Schools (CPS) places every part of the city into one of four <a href='about.html#the-tier-system'>socio-economic "tiers."</a> On average, people from Tier 1 areas make less money and have less education, and people from Tier 4 areas make more money and have more education.</p>
+					<p>In Oakland Unified, how you get into <a href='about.html#four-types'>elementary schools</a> depends on where he or she lives.</p>
+					<p>Options <a href='about.html#the-tier-system'>socio-economic "tiers."</a> On average, people from Tier 1 areas make less money and have less education, and people from Tier 4 areas make more money and have more education.</p>
 
 					<p>This tool <a href='about.html#disclaimer'>helps</a> you find what CPS tier you are in.</p>
 
-					<div class='flash'>
-						<div class='warning'>
-							<p><strong>Tier update!</strong> On Nov 20, CPS updated the tiers for census tracts <a href='#' onclick='MapsLib.searchFor("webster and orchard chicago");'>0712</a>, <a href='#' onclick='MapsLib.searchFor("clark and lasalle chicago");'>0715</a>, and <a href='#' onclick='MapsLib.searchFor("polk and claremont chicago");'>2828</a> based on new school performance data. See the <a href='http://cpsmagnet.org/apps/news/show_news.jsp?REC_ID=184188&id=0'>official CPS site for more info</a>.</p>
-						</div>
-					</div>
 
-					<h4>What tier am I in? <span>(<a href='#' onclick="MapsLib.findMe(); return false;">find me</a>)</span></h4>
+					<h4>What zone am I in? <span>(<a href='#' onclick="MapsLib.findMe(); return false;">find me</a>)</span></h4>
 				  <p><input class='txt hint' type="text" title="Enter an address &hellip;" id="txtSearchAddress" onkeydown="if (event.keyCode == 13) document.getElementById('btnSearch').click()"/></p>
 
 					<input class="btn" type="button" id="btnSearch" value="Search" onclick="MapsLib.doSearch();" />
